@@ -1,0 +1,22 @@
+@use "../abstracts/variables" as var;
+
+body {
+	font-family: var.$font-primary;
+	color: var.$color-slate-600;
+	font-size: var.$font-size-regular;
+	font-weight: var.$font-weight-medium;
+	line-height: var.$line-height-large;
+	text-align: center;
+
+	display: flex;
+	justify-content: center;
+}
+
+main {
+	background-color: var.$color-white;
+	max-width: var.$container-max-width;
+	margin: 0 auto;
+
+	display: grid;
+	grid-template-columns: 1fr;
+}

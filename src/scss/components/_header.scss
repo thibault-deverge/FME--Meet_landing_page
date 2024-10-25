@@ -1,0 +1,18 @@
+@use "../abstracts/variables" as var;
+
+.header {
+	padding: var.$spacing-10;
+	padding-bottom: 0;
+
+	display: flex;
+	justify-content: center;
+	align-items: end;
+
+	@media screen and (max-width: var.$bp-medium) {
+		padding-top: var.$spacing-7;
+	}
+
+	@media screen and (max-width: var.$bp-small) {
+		padding-top: 3rem;
+	}
+}

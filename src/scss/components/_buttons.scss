@@ -1,0 +1,30 @@
+@use "../abstracts/variables" as var;
+
+.btn {
+	color: var.$color-white;
+	font-size: var.$font-size-small;
+
+	padding: var.$spacing-3 var.$spacing-6;
+	border: none;
+	border-radius: 29px;
+
+	&--cyan {
+		background-color: var.$color-cyan-600;
+
+		& span {
+			color: var.$color-cyan-300;
+		}
+
+		&:hover {
+			background-color: #71c0d4;
+		}
+	}
+
+	&--purple {
+		background-color: var.$color-purple-600;
+
+		&:hover {
+			background-color: #b18bdd;
+		}
+	}
+}

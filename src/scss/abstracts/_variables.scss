@@ -1,0 +1,51 @@
+// Colors
+$color-cyan-300: #8fe3f9;
+$color-cyan-600: #4d96a9;
+$color-purple-300: #d9b8ff;
+$color-purple-600: #855fb1;
+$color-slate-300: #d1d1df;
+$color-slate-600: #87879d;
+$color-slate-900: #28283d;
+$color-white: #fafafa;
+
+// Grid
+$grid-desktop-cols: repeat(12, 64px);
+$grid-desktop-gap: 2rem;
+
+// Typography
+$font-primary: "Red Hat Display", sans-serif;
+$font-weight-medium: 500;
+$font-weigth-black: 900;
+$line-height-regular: 1.1;
+$line-height-large: 1.5;
+$letter-spacing-large: 4px;
+
+// Font-size
+$font-size-xxs: 0.75rem;
+$font-size-xs: 0.875rem;
+$font-size-small: 1rem;
+$font-size-regular: 1.125rem;
+$font-size-large: 2rem;
+$font-size-xl: 2.25rem;
+$font-size-xxl: 2.5rem;
+$font-size-huge: 4rem;
+
+// Spacing
+$spacing-1: 0.25rem;
+$spacing-2: 0.5rem;
+$spacing-3: 1rem;
+$spacing-4: 1.5rem;
+$spacing-5: 2rem;
+$spacing-6: 2.5rem;
+$spacing-7: 3.5rem;
+$spacing-8: 4rem;
+$spacing-9: 4.5rem;
+$spacing-10: 5rem;
+$spacing-11: 7rem;
+
+// Layout
+$container-max-width: 90rem;
+
+// Breakpoints
+$bp-medium: 75rem;
+$bp-small: 38.125rem;

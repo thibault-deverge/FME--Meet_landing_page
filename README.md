@@ -4,8 +4,8 @@ This is a solution to the [Meet landing page challenge on Frontend Mentor](https
 
 ### Links
 
-- [Solution URL](https://your-solution-url.com)
-- [Live site URL](https://your-live-site-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/meet-landing-page---solution-0cfu5SDEZZ)
+- [Live site URL](https://frontend-mentor-meet-landing-page-asdas.vercel.app/)
 
 ## Author
 

@@ -18,6 +18,7 @@
 			<header class="header">
 				<img class="header__logo" src="../assets/logo.svg" alt="" aria-hidden="true" />
 			</header>
+
 			<section class="hero">
 				<picture class="hero__image hero__image--left">
 					<source srcset="../assets/tablet/image-hero.png" media="(max-width: 1200px)" />
@@ -38,27 +39,45 @@
 					<img src="../assets/desktop/image-hero-right.png" alt="" />
 				</picture>
 			</section>
-			<section>
-				<div>
-					<div></div>
-					<p>01</p>
+
+			<section class="features">
+				<div class="indicator features__indicator">
+					<div class="indicator__line"></div>
+					<p class="indicator__number">01</p>
 				</div>
-				<div>
+
+				<div class="features__gallery">
 					<img src="../assets/desktop/image-woman-in-videocall.jpg" alt="" />
 					<img src="../assets/desktop/image-women-videochatting.jpg" alt="" />
 					<img src="../assets/desktop/image-men-in-meeting.jpg" alt="" />
 					<img src="../assets/desktop/image-man-texting.jpg" alt="" />
 				</div>
-				<div>
-					<h2>Built For Modern Use</h2>
-					<h3>Smarter meetings, all in one place</h3>
-					<p>
+
+				<div class="features__content">
+					<p class="features__subtitle">Built For Modern Use</p>
+					<h2 class="features__title">Smarter meetings, all in one place</h2>
+					<p class="features__description">
 						Send messages, share files, show your screen, and record your meetings - all
-						in one workspace. control who can join with invite-only team access, data
+						in one workspace. Control who can join with invite-only team access, data
 						encryption, and data export.
 					</p>
 				</div>
 			</section>
+
+			<footer class="footer">
+				<div class="indicator footer__indicator">
+					<div class="indicator__line"></div>
+					<p class="indicator__number">01</p>
+				</div>
+				<div class="footer__content">
+					<h2 class="footer__title">Experience more together</h2>
+					<div class="footer__description">
+						Stay connected with reliable HD meetings and unlimited one-on-one and group
+						video sessions.
+					</div>
+					<button class="footer__btn btn btn--purple">Download <span>v1.3</span></button>
+				</div>
+			</footer>
 		</main>
 	</body>
 </html>

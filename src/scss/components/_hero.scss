@@ -9,7 +9,12 @@
 
 	@media screen and (max-width: var.$bp-medium) {
 		flex-direction: column;
+		align-items: center;
 		gap: var.$spacing-9;
+	}
+
+	@media screen and (max-width: var.$bp-small) {
+		padding-bottom: var.$spacing-5;
 	}
 
 	&__image {
@@ -55,7 +60,7 @@
 	&__title {
 		color: var.$color-slate-900;
 		font-size: var.$font-size-huge;
-		font-weight: var.$font-weigth-black;
+		font-weight: var.$font-weight-black;
 		line-height: var.$line-height-regular;
 
 		@media screen and (max-width: var.$bp-medium) {
@@ -78,6 +83,7 @@
 		justify-content: center;
 		align-items: center;
 		gap: var.$spacing-3;
+		margin-bottom: var.$spacing-5;
 
 		@media screen and (max-width: 710px) {
 			flex-direction: column;

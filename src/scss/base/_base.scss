@@ -1,6 +1,7 @@
 @use "../abstracts/variables" as var;
 
 body {
+	background-color: var.$color-slate-900;
 	font-family: var.$font-primary;
 	color: var.$color-slate-600;
 	font-size: var.$font-size-regular;
